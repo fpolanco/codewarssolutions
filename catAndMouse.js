@@ -10,6 +10,7 @@ function catMouse(x){
   //   }
     //string.substring(startingIndex, excludedIndex)
     let dots = x.substring(1, x.length-1)
+    // return x.length > 5 ? "Escaped!" : "Caught!"
     return dots.length > 3? "Escaped!" : "Caught!"
     
   //   return counter > 3? "Escaped!" : "Caught!"
