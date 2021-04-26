@@ -11,3 +11,13 @@ function boolToWord( bool ){
       return  "No";
     }
   }
+
+
+  // Other Solutions ternary
+  function boolToWord( bool ){
+    return bool ? 'Yes':'No';
+  }
+
+  function boolToWord( bool ){
+    return true === bool ? 'Yes' : 'No'
+  }
