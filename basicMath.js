@@ -7,8 +7,8 @@ function calculate(str) {
     console.log(eval(minus));
     return eval(minus);
 }
-// calculate("1plus2plus3plus4");  --> "10"
-// calculate("1plus2plus3minus4");  --> "2"
+// calculate("1plus2plus3plus4");  //--> "10"
+// calculate("1plus2plus3minus4");  //--> "2"
 (calculate("1plus2plus3plus4"), '10');
 (calculate('1plus2plus3minus4'), '2');
 
