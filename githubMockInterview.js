@@ -13,6 +13,6 @@ let arrayMax = Math.max(...array)
 let arrayMin = Math.min(...array)
 return arrayMax - arrayMin
 
-// big O Notification. how will it scale?
+// big O Notation. how will it scale?
 
 // big o of 1 - memory
