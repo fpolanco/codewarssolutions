@@ -149,8 +149,8 @@ class TreeNode {
       return
     }
       dfsPost(node.left)
-      resultIn.push(node.value)
       dfsPost(node.right)
+      resultPost.push(node.value)
       
       return resultPost
   }
